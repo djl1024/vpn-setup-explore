@@ -3,7 +3,7 @@ This tutorial outlines deploying and exploring a (Proton) VPN within a local (Az
 
 VPNs (Virtual Private Networks) enhance privacy, security, and accessibility online. They encrypt your internet traffic, protecting sensitive data from hackers, especially on public WiFi. VPNs also allow bypassing geography restrictions to access region-specific content/resources, and prevent ISP tracking.
 
-VPNs are preferred in cases such as securing remote work connections, accessing geo-blocked content (i.e. streaming services), and protecting data on public WiFi<br />
+VPNs are preferred in cases such as securing remote work connections, accessing geo-blocked content (i.e. streaming services), and protecting data on public WiFi.<br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -21,7 +21,7 @@ VPNs are preferred in cases such as securing remote work connections, accessing 
 - Windows 10 (21H2)
 
 
-<h2>Deployment and Configuration Steps</h2>
+<h2>Deployment and Exploration Step-By-Step</h2>
 
 <p>
 </p>
@@ -29,7 +29,7 @@ VPNs are preferred in cases such as securing remote work connections, accessing 
 
 1st pic create 1
    
-   Beginning this lab, as stated above, we will first create a VM in Azure using Windows 10 for our Proton VPN. So for starters with this example, log into your Azure account > go to virtual machines > click on create the VM.
+   Beginning this lab, as stated above, we will first create a VM in Azure using Windows 10 for our Proton VPN. So for starters with this example, log into your Azure account > go to virtual machines > click on 'create' to create the VM.
    
    A few of our Azure VM's settings are as follows: Region - East US, Image - Windows 10 v22H2-Gen2, Size - Standard D2s v3 (2 virtual cpus, 8GiB memory). The remaining settings are pretty much set for this example. Your settings should look similar to the settings in the photo(s) below:
 
