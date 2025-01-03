@@ -74,34 +74,34 @@ VPNs are preferred in cases such as securing remote work connections, accessing 
 
  ![image alt](https://github.com/djl1024/Test-pics/blob/fd45981fbd2aff59f9d3c2c3f081ef9a6ade96a6/imageedit_10_9158013445.jpg)
 
-   Now, really quickly, we will explore Amazon.com under our default VM IP Address. Once I landed on Amazon's website, it seemed to be the same Amazon we're all used to, in English language (see below photo).
+   Now, really quickly, we will explore Amazon.com under our default VM IP Address. Once I landed on Amazon's website, it seemed to be the same Amazon we're all used to, in the English language (see below photo).
 
    ![image alt](https://github.com/djl1024/Test-pics/blob/fd45981fbd2aff59f9d3c2c3f081ef9a6ade96a6/imageedit_22_2139355270.jpg)
    
    Now we need to set up our VPN. You can start by opening your (Proton) VPN. So once you've downloaded Proton VPN's software and created a subscription, open the app and you should be taken to a screen similar to the screen below:
 
-   pic phone proton not set ![image alt](
+ ![image alt](https://github.com/djl1024/Test-pics/blob/142a29cf94d7e0da6f3194e109d6c9ee8717a034/imageedit_24_5074043117.jpg)
 
    To activate Proton's VPN, we can do so rather quickly by clicking on "Quick Connect", but the VPNs location will be randomly selected (free subscription plan). I believe ProtonVPN allows you a choice on their paid plans, but for this example, I'm using their free plan.
 
    After that, you should now have the VPN successfully connected! It should notify you ("Connected") near the top of the screen, like in the photos below:
 
-   pic phone vpn connected 1 ![image alt](
-   pic phone vpn connected 2 (close up) ![image alt](
+   ![image alt](https://github.com/djl1024/Test-pics/blob/142a29cf94d7e0da6f3194e109d6c9ee8717a034/imageedit_12_9464752869.jpg)
+   ![image alt](https://github.com/djl1024/Test-pics/blob/142a29cf94d7e0da6f3194e109d6c9ee8717a034/imageedit_14_5083049697.gif)
 
 In this example, it says our VPN is located in the Netherlands, with our new example VPN IP Address as "89.38.99.79". We will now double-check our new IP Address at the website we used earlier, whatsmyipaddress.com.
 
 After revisiting whatsmyipaddress.com, we can see that now, with our VPN connected, our IP Address is our VPN IP Address "89.38.99.79", according to whatsmyipaddress.com. But, whatsmyipaddress.com says that our VPN is located in Muscat, Oman, a smaller Middle-Eastern country located next to Saudi Arabia! (See photo below)
 
-pic phone whatsmyipaddress new ip ![image alt](
+![image alt](https://github.com/djl1024/Test-pics/blob/142a29cf94d7e0da6f3194e109d6c9ee8717a034/imageedit_16_6281105587.jpg)
 
 To find out once and for all, we will revisit Amazon.com using our example VPN within our VM, IP Address "89.38.99.79", and see what it brings us (see photo below).
 
-pic phone amazon dutch ![image alt](
+![image alt](https://github.com/djl1024/Test-pics/blob/142a29cf94d7e0da6f3194e109d6c9ee8717a034/imageedit_18_2386902976.jpg)
 
 Upon revisiting Amazon.com using our VPN, we can see that we landed on Amazon's home page, but the words are in Dutch (language). Based on this small exploration, we probably can safely say that our VPN is definitely located in the Netherlands, just as ProtonVPN said, instead of the Arabic location given to us by whatsmyipaddress.com.
 
-Nonetheless, this concludes our (Proton) VPN test on our Azure virtual machine. I hope this helps and certainly hope you've enjoyed our VPN deployment and exploration experiment! Until next project!
+Nonetheless, this concludes our (Proton) VPN test on our Azure virtual machine. I certainly hope this helps and that you've enjoyed our VPN deployment and exploration experiment! Until the next project!
    
    
 </p>
