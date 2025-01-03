@@ -27,38 +27,38 @@ VPNs are preferred in cases such as securing remote work connections, accessing 
 </p>
 <p>
 
-![image alt](https://github.com/djl1024/test-pics/blob/7539a8178f8fcc4bcc13686c1ff5d7e5d4d3a175/Screenshot%202025-01-02%20075908.png)
+![image alt](https://github.com/djl1024/test-pics/blob/7539a8178f8fcc4bcc13686c1ff5d7e5d4d3a175/Screenshot%202025-01-02%20075908.png) 
       Beginning this lab, as stated above, we will first create a VM in Azure using Windows 10 for our Proton VPN. So for starters with this example, log into your Azure account > go to virtual machines > click on 'create' to create the VM. I will name our example VM "VPN-VM". However, feel free to name your VM, or any other part of this example whatever you're comfortable with naming it. :)
    
    A few of our Azure VM's settings are as follows: Region - East US, Image - Windows 10 v22H2-Gen2, Size - Standard D2s v3 (2 virtual cpus, 8GiB memory). The remaining settings are pretty much set for this example. Your settings should look similar to the settings in the photo(s) below:
 
-   ![image alt](https://github.com/djl1024/test-pics/blob/7539a8178f8fcc4bcc13686c1ff5d7e5d4d3a175/Screenshot%202025-01-02%20082103.png)
+   ![image alt](https://github.com/djl1024/test-pics/blob/7539a8178f8fcc4bcc13686c1ff5d7e5d4d3a175/Screenshot%202025-01-02%20082103.png) 
 
    Go ahead and create the VM. Once you have it created, your screen should resemble a similar screen to the photo below. 
 
-   ![image alt](https://github.com/djl1024/test-pics/blob/7539a8178f8fcc4bcc13686c1ff5d7e5d4d3a175/Screenshot%202025-01-02%20091639.png)
+   ![image alt](https://github.com/djl1024/test-pics/blob/7539a8178f8fcc4bcc13686c1ff5d7e5d4d3a175/Screenshot%202025-01-02%20091639.png) 
 
    To verify that you've created the VM, search for your virtual machine resources and it should be listed similarly to the photo below. Also, take note that our example VM, "VPN-VM" IP Address is "172.174.247.167".
 
-   ![image alt](https://github.com/djl1024/test-pics/blob/7539a8178f8fcc4bcc13686c1ff5d7e5d4d3a175/Screenshot%202025-01-02%20091736.png)
-   ![image alt](https://github.com/djl1024/test-pics/blob/7539a8178f8fcc4bcc13686c1ff5d7e5d4d3a175/Screenshot%202025-01-02%20094237.png)
+   ![image alt](https://github.com/djl1024/test-pics/blob/7539a8178f8fcc4bcc13686c1ff5d7e5d4d3a175/Screenshot%202025-01-02%20091736.png) 
+   ![image alt](https://github.com/djl1024/test-pics/blob/7539a8178f8fcc4bcc13686c1ff5d7e5d4d3a175/Screenshot%202025-01-02%20094237.png) 
 
    Now that our VM is created, we will next log into our VM using Remote Desktop. So, open Remote Desktop and enter the IP Address of the VM, in this example, I'll enter "172.174.247.167". If you're using Windows, your Remote Desktop should look similar to the below photo.
 
-   ![image alt](https://github.com/djl1024/test-pics/blob/7539a8178f8fcc4bcc13686c1ff5d7e5d4d3a175/Screenshot%202025-01-02%20092250.png)
+   ![image alt](https://github.com/djl1024/test-pics/blob/7539a8178f8fcc4bcc13686c1ff5d7e5d4d3a175/Screenshot%202025-01-02%20092250.png) 
 
    Once you've clicked on "Connect", it will take you to the following screen (below):
 
-   ![image alt](https://github.com/djl1024/test-pics/blob/7539a8178f8fcc4bcc13686c1ff5d7e5d4d3a175/Screenshot%202025-01-02%20092415.png)
-   ![image alt](https://github.com/djl1024/test-pics/blob/7539a8178f8fcc4bcc13686c1ff5d7e5d4d3a175/Screenshot%202025-01-02%20092541.png)
+   ![image alt](https://github.com/djl1024/test-pics/blob/7539a8178f8fcc4bcc13686c1ff5d7e5d4d3a175/Screenshot%202025-01-02%20092415.png) 
+   ![image alt](https://github.com/djl1024/test-pics/blob/7539a8178f8fcc4bcc13686c1ff5d7e5d4d3a175/Screenshot%202025-01-02%20092541.png) 
 
    In this case, I'm signing in using the account created with the VM, in which I named "DeAndre VPN", but again, feel free to name the account VM, VM, Azure resource group, or any other part whatever you'd like to name them. So near the bottom, click on "More choices" > then click "use a different account" if you're not using your default account, but utilizing the VM account.
 
-   ![image alt](https://github.com/djl1024/test-pics/blob/7539a8178f8fcc4bcc13686c1ff5d7e5d4d3a175/Screenshot%202025-01-02%20092830.png)
+   ![image alt](https://github.com/djl1024/test-pics/blob/7539a8178f8fcc4bcc13686c1ff5d7e5d4d3a175/Screenshot%202025-01-02%20092830.png) 
 
    Once you continue with your selected account, you should see a screen similar to the screen below:
 
-   ![image alt](https://github.com/djl1024/test-pics/blob/7539a8178f8fcc4bcc13686c1ff5d7e5d4d3a175/Screenshot%202025-01-02%20092856.png)
+   ![image alt](https://github.com/djl1024/test-pics/blob/7539a8178f8fcc4bcc13686c1ff5d7e5d4d3a175/Screenshot%202025-01-02%20092856.png) 
 
    Click "Yes" to continue. You should then be taken into your local VM. After accessing our example "VPN-VM", I was taken to the screen below:
 
