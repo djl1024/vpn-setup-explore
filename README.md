@@ -62,15 +62,21 @@ VPNs are preferred in cases such as securing remote work connections, accessing 
 
    Click "Yes" to continue. You should then be taken into your local VM. After accessing our example "VPN-VM", I was taken to the screen below:
 
- ![image alt](https://www5.lunapic.com/editor/newsave.php)
+   Please Note: the remaining photos utilized in this example were taken via iPhone, as I'm currently unaware of how to screenshot on an opened/active Remote Desktop session. (I apologize for the inconvenience, photo size, quality, etc, I'll have it figured out before the next project!)
+
+ ![image alt](https://github.com/djl1024/Test-pics/blob/fd45981fbd2aff59f9d3c2c3f081ef9a6ade96a6/imageedit_4_7135751449.jpg)
+
+ After this screen loads, you should be at your VM's desktop, similar to our example VM below (besides a possibly different wallpaper):
+
+ ![image alt](https://github.com/djl1024/Test-pics/blob/fd45981fbd2aff59f9d3c2c3f081ef9a6ade96a6/imageedit_6_4220527260.jpg)
 
    Congrats! You've created and launched your VM! To verify or double check that the IP Address is still the same IP Address, "172.174.247.167", we can visit whatsmyipaddress.com for another source informing us of the IP Address. As you can see below, our IP Address still stands at "172.174.247.167" based on whatsmyipaddress.com.
 
-   pic phone whatsmyipaddress before vpn ![image alt](
+ ![image alt](https://github.com/djl1024/Test-pics/blob/fd45981fbd2aff59f9d3c2c3f081ef9a6ade96a6/imageedit_10_9158013445.jpg)
 
-   Now, really quickly, we will explore Amazon.com under our normal VM IP Address. Once I landed on Amazon's website, it seemed to be the same Amazon we're all used to, in English language (see below photo).
+   Now, really quickly, we will explore Amazon.com under our default VM IP Address. Once I landed on Amazon's website, it seemed to be the same Amazon we're all used to, in English language (see below photo).
 
-   pic phone amazon last ![image alt](
+   ![image alt](https://github.com/djl1024/Test-pics/blob/fd45981fbd2aff59f9d3c2c3f081ef9a6ade96a6/imageedit_22_2139355270.jpg)
    
    Now we need to set up our VPN. You can start by opening your (Proton) VPN. So once you've downloaded Proton VPN's software and created a subscription, open the app and you should be taken to a screen similar to the screen below:
 
