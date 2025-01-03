@@ -27,7 +27,7 @@ VPNs are preferred in cases such as securing remote work connections, accessing 
 </p>
 <p>
 
-1st pic create 1
+![image alt](https://github.com/djl1024/test-pics/blob/7539a8178f8fcc4bcc13686c1ff5d7e5d4d3a175/Screenshot%202025-01-02%20075908.png)
    
    Beginning this lab, as stated above, we will first create a VM in Azure using Windows 10 for our Proton VPN. So for starters with this example, log into your Azure account > go to virtual machines > click on 'create' to create the VM. I will name our example VM "VPN-VM". However, feel free to name your VM, or any other part of this example whatever you're comfortable with naming it. :)
    
