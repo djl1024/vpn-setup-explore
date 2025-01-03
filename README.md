@@ -62,7 +62,7 @@ VPNs are preferred in cases such as securing remote work connections, accessing 
 
    Click "Yes" to continue. You should then be taken into your local VM. After accessing our example "VPN-VM", I was taken to the screen below:
 
-   pic phone1 ![image alt](
+ ![image alt](https://www5.lunapic.com/editor/newsave.php)
 
    Congrats! You've created and launched your VM! To verify or double check that the IP Address is still the same IP Address, "172.174.247.167", we can visit whatsmyipaddress.com for another source informing us of the IP Address. As you can see below, our IP Address still stands at "172.174.247.167" based on whatsmyipaddress.com.
 
