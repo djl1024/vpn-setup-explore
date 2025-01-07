@@ -99,7 +99,7 @@ To find out once and for all, we will revisit Amazon.com using our example VPN w
 
 ![image alt](https://github.com/djl1024/Test-pics/blob/142a29cf94d7e0da6f3194e109d6c9ee8717a034/imageedit_18_2386902976.jpg)
 
-Upon revisiting Amazon.com using our VPN, we can see that we landed on Amazon's home page, but the words are in Dutch (language). Based on this small exploration, we probably can safely say that our VPN is definitely located in the Netherlands, just as ProtonVPN said, instead of the Arabic location given to us by whatsmyipaddress.com.
+Upon revisiting Amazon.com using our VPN, we can see that we landed on Amazon's home page, but the words are in Dutch (language). Based on this small exploration, we probably can safely say that our VPN is definitely located in the Netherlands, just as ProtonVPN said, instead of Muscat, Oman, the location given to us by whatsmyipaddress.com.
 
 Nonetheless, this concludes our (Proton) VPN test on our Azure virtual machine. I certainly hope this helps and that you've enjoyed our VPN deployment and exploration experiment! Until the next project!
    
